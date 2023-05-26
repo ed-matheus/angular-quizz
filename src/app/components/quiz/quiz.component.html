@@ -1,0 +1,29 @@
+<div class="quiz__container">
+  <div *ngIf="show" class="quiz_title">
+    <!-- <img src="assets/images/logo.png" alt=""> -->
+    <h1 class="display-2">Quizz da Profissão</h1>
+    <h3>{{ title }}</h3>
+
+    <button class="btn btn-lg" (click)="startQuiz()">Começar</button>
+  </div>
+
+  <div *ngIf="!finished && !show" class="quiz_questions">
+    <h3>{{ questionSelected.question }}</h3>
+  </div>
+
+  <div *ngIf="!finished && !show" class="quiz_options">
+    <button
+      *ngFor="let option of questionSelected.options"
+      (click)="playerChoice(option.alias)"
+      class="btn-option"
+    >
+      {{ option.name }}
+    </button>
+  </div>
+
+  <div *ngIf="finished" class="quiz_results">
+    <h1>Seu resultado:</h1>
+    <p>{{ answerSelected }}</p>
+    <button class="btn btn-lg" (click)="restart()">Refazer</button>
+  </div>
+</div>

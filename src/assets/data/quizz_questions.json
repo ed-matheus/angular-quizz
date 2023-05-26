@@ -1,0 +1,56 @@
+{
+  "title":"Em qual área profissional você se encaixa?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Com qual das opções você se identifica ?",
+      "options":[
+        {"id": 1, "name":"Busco contribuir para o bem-estar das pessoas", "alias":"A"},
+        {"id": 2, "name":"Gosto de desenvolver inovações", "alias":"B"},
+        {"id": 3, "name":"Gosto de trabalhar com vendas", "alias":"C"},
+        {"id": 4, "name":"Prefiro ensinar/auxiliar no aprendizado do próximo", "alias":"D"},
+        {"id": 5, "name":"Direitos humanos, defender e debater ideias", "alias":"E"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual assunto é mais interessante para você ?",
+      "options":[
+        {"id": 1, "name":"Tecnologia e seus avanços", "alias":"B"},
+        {"id": 2, "name":"Patologias e seus tratamentos", "alias":"A"},
+        {"id": 3, "name":"Assuntos pedagógicos e de aprendizado", "alias":"D"},
+        {"id": 4, "name":"Legislação, direitos e deveres", "alias":"E"},
+        {"id": 5, "name":"Análise de mercado", "alias":"C"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "O que você costuma fazer no dia a dia ?",
+      "options":[
+        {"id": 1, "name":"Ler diversos livros", "alias":"D"},
+        {"id": 2, "name":"Gosto de navegar na web", "alias":"B"},
+        {"id": 3, "name":"Acompanho notícias a respeito de vendas, marketing e atualidades globais", "alias":"C"},
+        {"id": 4, "name":"Cuidar do bem-estar físico e psicológico", "alias":"A"},
+        {"id": 5, "name":"Pesquisar sobre casos famosos da área criminalística", "alias":"E"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "No que você se considera melhor ?",
+      "options":[
+        {"id": 1, "name":"Defender o próximo com justiça", "alias":"E"},
+        {"id": 2, "name":"Negociar valores e gerir pessoas", "alias":"C"},
+        {"id": 3, "name":"Compreensão/empatia e atenciosidade", "alias":"A"},
+        {"id": 4, "name":"Resolver problemas lógicos", "alias":"B"},
+        {"id": 5, "name":"Ser paciente e repassar conhecimentos", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você se encaixa muito bem na área de Saúde",
+    "B": "Você se encaixa muito bem na área da Tecnologia!",
+    "C": "Você se encaixa muito bem na área de Negócios / Administração!",
+    "D": "Você se encaixa muito bem na área da Educação!",
+    "E": "Você se encaixa muito bem na área de Direito (Área Jurídica)!"
+  }
+}
