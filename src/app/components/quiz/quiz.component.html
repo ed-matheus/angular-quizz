@@ -21,9 +21,19 @@
     </button>
   </div>
 
-  <div *ngIf="finished" class="quiz_results">
+  <div *ngIf="finished" class="quiz_results" id="result_container">
     <h1>Seu resultado:</h1>
     <p>{{ answerSelected }}</p>
+    <div class="veja_mais">
+      <div class="texto_extra">
+        <p *ngIf="showExtraText">
+          {{ extraText }}
+        </p>
+      </div>
+      <button (click)="showText()">
+        <p id="text">Ver mais... <i class="fa-solid fa-caret-down" id="icon"></i></p>
+      </button>
+    </div>
     <button class="btn btn-lg" (click)="restart()">Refazer</button>
   </div>
 </div>

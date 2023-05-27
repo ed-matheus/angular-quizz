@@ -47,10 +47,17 @@
     }
   ],
   "results":{
-    "A": "Você se encaixa muito bem na área de Saúde",
+    "A": "Você se encaixa muito bem na área da Saúde",
     "B": "Você se encaixa muito bem na área da Tecnologia!",
     "C": "Você se encaixa muito bem na área de Negócios / Administração!",
     "D": "Você se encaixa muito bem na área da Educação!",
     "E": "Você se encaixa muito bem na área de Direito (Área Jurídica)!"
+  },
+  "extraTexts":{
+    "A": "A área da Saúde é uma opção altamente gratificante para quem busca uma carreira significativa e impactante. Ao escolher a área da Saúde, você tem a oportunidade de fazer a diferença na vida das pessoas, ajudando-as a superar desafios de saúde e promovendo seu bem-estar geral. A possibilidade de melhorar a qualidade de vida dos pacientes é uma das principais motivações para aqueles que escolhem seguir essa trajetória.",
+    "B": "A área da Tecnologia tem se tornado cada vez mais atrativa nos dias de hoje. Escolher uma carreira nessa área traz consigo inúmeras vantagens e oportunidades emocionantes. Uma das principais razões para optar pela tecnologia é o ritmo acelerado da inovação. A tecnologia está sempre avançando, o que significa que você estará constantemente aprendendo e enfrentando novos desafios. Se você gosta de se manter atualizado com as últimas tendências e desfruta de um ambiente dinâmico, a área da tecnologia pode ser perfeita para você. Algumas das profissões mais comuns incluem desenvolvedor de software, engenheiro de dados, cientista de dados, especialista em segurança cibernética, designer de interface de usuário, administrador de sistemas, entre outras. Cada uma dessas profissões possui sua própria especialização e conjunto de habilidades necessárias.",
+    "C": "A área de Negócios e Administração é uma escolha popular e promissora para aqueles que buscam uma carreira versátil e repleta de possibilidades. Uma das principais razões para escolher essa área é a ampla gama de oportunidades profissionais disponíveis. Desde o empreendedorismo e a gestão de empresas até o marketing, finanças, recursos humanos e consultoria, há uma variedade de caminhos para seguir dentro desse campo. Isso significa que você pode encontrar uma área que se alinhe com seus interesses e habilidades específicas.",
+    "D": "A área da Educação é essencial para o crescimento e progresso da sociedade. Optar por uma carreira na educação significa ter a oportunidade de influenciar e capacitar as pessoas por meio do compartilhamento de conhecimento e do processo de aprendizagem. Uma das principais razões para escolher essa área é o impacto positivo que você pode ter na vida dos estudantes. Como educador, você tem a capacidade de inspirar, motivar e orientar os alunos em seu crescimento intelectual, emocional e social.",
+    "E": "A área do Direito desempenha um papel fundamental na sociedade, garantindo a ordem, a justiça e a proteção dos direitos individuais e coletivos. Optar por uma carreira jurídica significa ter a oportunidade de fazer a diferença na vida das pessoas e na comunidade em que você está inserido. Uma das principais razões para escolher essa área é o senso de propósito e a busca pela justiça. Como profissional do direito, você estará envolvido na resolução de disputas, na defesa dos direitos dos indivíduos, empresas e organizações, e na manutenção da lei e da ordem."
   }
 }

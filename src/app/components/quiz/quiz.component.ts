@@ -16,12 +16,14 @@ export class QuizComponent implements OnInit {
 
   answers:string[] = []
   answerSelected:string = ''
+  extraText:string = ''
 
   questionIndex:number = 0
   questionMaxIndex:number = 0
 
   finished:boolean = false
   show:boolean = true
+  showExtraText:boolean = false
 
   constructor() { }
 
@@ -35,16 +37,12 @@ export class QuizComponent implements OnInit {
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
-
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
     }
   }
 
   playerChoice(valor:string) {
     this.answers.push(valor)
     this.nextStep()
-    console.log(this.answers)
   }
 
   async nextStep() {
@@ -56,6 +54,7 @@ export class QuizComponent implements OnInit {
       const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
+      this.extraText = quizz_questions.extraTexts[finalAnswer as keyof typeof quizz_questions.extraTexts]
     }
   }
 
@@ -79,7 +78,21 @@ export class QuizComponent implements OnInit {
     this.show = false
   }
 
-  // recomeça o quiz quando o usuário chega no final e aperta o botão "restart"
+  showText() {
+    if(this.showExtraText == false) {
+      this.showExtraText = true;
+      const text:any = document.getElementById('text')
+      text.innerHTML = 'Ver menos <i class="fa-solid fa-caret-up"></i>'
+
+    } else {
+      this.showExtraText = false;
+
+      const text:any = document.getElementById('text')
+      text.innerHTML = 'Ver mais <i class="fa-solid fa-caret-down"></i>'
+    }
+  }
+
+  // recomeça o quiz quando o usuário chega no final e aperta o botão "Refazer"
   restart() {
     location.reload();
   }
