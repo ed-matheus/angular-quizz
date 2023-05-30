@@ -132,6 +132,47 @@
     height: 40px;
     font-size: 14px;
   }
+
+  /* Container das questões */
+  .quiz_questions {
+    height: 145px;
+  }
+
+  .quiz_questions > h3 {
+    font-size: 20px;
+  }
+
+  .btn-option {
+    margin: 8px;
+    font-size: 12px;
+  }
+
+  /* Container das questões */
+  .quiz_questions {
+    height: 140px;
+  }
+
+  .quiz_questions > h3 {
+    font-size: 22px;
+  }
+
+  .btn-option {
+    width: 204px;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  /* Resultado */
+  .quiz_results > p {
+    font-size: 13px;
+  }
+
+  /* Texto extra a respeito da área profissional */
+  .texto_extra {
+    font-size: 16px;
+    width: 365px;
+    text-align: justify;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -148,6 +189,32 @@
     width: 98px;
     height: 45px;
     font-size: 17px;
+  }
+
+  /* Container das questões */
+  .quiz_questions {
+    height: 145px;
+  }
+
+  .quiz_questions > h3 {
+    font-size: 25px;
+  }
+
+  .btn-option {
+    margin: 8px;
+    font-size: 15px;
+  }
+
+  /* Resultado */
+  .quiz_results > p {
+    font-size: 18px;
+  }
+
+  /* Texto extra a respeito da área profissional */
+  .texto_extra {
+    font-size: 16px;
+    width: 480px;
+    text-align: justify;
   }
 }
 
@@ -166,6 +233,20 @@
     height: 48px;
     font-size: 19px;
   }
+
+  /* Container das questões */
+  .quiz_questions {
+    height: 150px;
+  }
+
+  .quiz_questions > h3 {
+    font-size: 28px;
+  }
+
+  .btn-option {
+    margin: 8px;
+    font-size: 15px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -183,6 +264,10 @@
     height: 48px;
     font-size: 20px;
   }
+
+  .btn-option {
+    margin: 8px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -191,5 +276,9 @@
     width: 112px;
     height: 48px;
     font-size: 20px;
+  }
+
+  .btn-option {
+    margin: 8px;
   }
 }
