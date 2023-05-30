@@ -15,6 +15,9 @@
   margin-right: 10px;
 }
 
-.linkedin_link {
-
+/* MEDIA QUERIE */
+@media screen and (max-width: 411px) {
+  .header_container > h6 {
+    font-size: 13px;
+  }
 }
