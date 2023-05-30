@@ -5,7 +5,7 @@
   margin-top: 135px;
 }
 
-/* Container do logo */
+/* Container do Título */
 .quiz_title {
   display: flex;
   flex-direction: column;
@@ -114,4 +114,82 @@
 .texto_extra {
   width: 528px;
   text-align: justify;
+}
+
+/* MEDIA QUERIES */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .quiz_title > h1 {
+    font-size: 38px;
+  }
+
+  .quiz_title > h3 {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 85px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .quiz_title > h1 {
+    font-size: 59px;
+  }
+
+  .quiz_title > h3 {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 98px;
+    height: 45px;
+    font-size: 17px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .quiz_title > h1 {
+    font-size: 76px;
+  }
+
+  .quiz_title > h3 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 102px;
+    height: 48px;
+    font-size: 19px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .quiz_title > h1 {
+    font-size: 86px;
+  }
+
+  .quiz_title > h3 {
+    font-size: 26px;
+  }
+
+  .btn {
+    width: 112px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .btn {
+    width: 112px;
+    height: 48px;
+    font-size: 20px;
+  }
 }
