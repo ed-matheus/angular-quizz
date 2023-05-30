@@ -18,6 +18,6 @@
 /* MEDIA QUERIE */
 @media screen and (max-width: 411px) {
   .header_container > h6 {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
