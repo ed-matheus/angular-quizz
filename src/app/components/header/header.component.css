@@ -1,0 +1,20 @@
+.header_container {
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container > h6 {
+  font-weight: lighter;
+}
+
+.github_link {
+  margin-right: 10px;
+}
+
+.linkedin_link {
+
+}
